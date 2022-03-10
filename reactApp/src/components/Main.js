@@ -11,6 +11,7 @@ import ImpactFactor from "./ImpactFactor";
 import CountyMap from "./CountyMap";
 import PredictionMap from "./PredictionMap";
 import FeatureImportance from "./FeatureImportance";
+import Documentation from "./Documentation";
 
 function Main() {
   return (
@@ -25,6 +26,7 @@ function Main() {
     <Route path="/countymap/" exact component={CountyMap} />
     <Route path="/predictionmap/" exact component={PredictionMap} />
     <Route path="/featureimportance/" exact component={FeatureImportance} />
+    <Route path="/documentation/" exact component={Documentation} />
 
     </section>
   );

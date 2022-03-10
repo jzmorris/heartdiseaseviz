@@ -122,7 +122,18 @@ function Content() {
 				  Feature Importance
 				</Link>
 			  </li>
-
+			  <li>
+				<Link
+				  to={{
+					pathname: "/documentation/",
+					state: {
+					  title: "Documentation"
+					}
+				  }}
+				>
+				  Documentation
+				</Link>
+			  </li>
 			</ul>
 		  </nav>
 		  <Main />
