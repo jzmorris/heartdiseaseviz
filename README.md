@@ -26,7 +26,7 @@ You can navigate to the website by visiting: [https://www.heartdiseaseviz.com/](
 
 - Used to connect all data and extract neccesary views. 
 
-## Creating the Prediction Models:
+## Creating the Prediction Models
 
 - Building the training set
 - found in predictionModels notebook
