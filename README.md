@@ -1,21 +1,42 @@
-# Visualizing Heart Disease in Mortality Landing Page
+# Visualizing Heart Disease in Mortality
 
-React JS site used as framework for embedded Tableau Public Dashboards
-
-
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm install`
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+<img src="https://raw.githubusercontent.com/jzmorris/heartdiseaseviz/main/reactApp/src/images/heartdiseaseHeader.webp" width="250" height="180">
 
 
-## Created by Jarod Morris
+You can navigate to the website by visiting: [https://www.heartdiseaseviz.com/](https://www.heartdiseaseviz.com/)
+
+
+## Technologies Used:
+- MSSQL Server on AWS-RDS
+- Python
+	- Pandas, SkLearn, InterpretML, XML Web Scraping, Matplotlib
+- Tableau
+- Microsoft Access (Schema)
+- ReactJS
+
+# Steps to completion:
+
+## Data Collection
+
+- Collect Data from various sources for heart disease related publications, research funding, mortality statistics and water/air quality.
+- Stage Data in Access
+- Import into MSSQL on AWS-RDS
+
+## SQL
+
+- Used to connect all data and extract neccesary views. 
+
+## Creating the Prediction Models:
+
+- Building the training set
+- found in predictionModels notebook
+
+## Visualizing the Data
+
+- Created 30+ sheets connected across 8 Tableau Dashboards. Used to visualize the dataset and prediction model results.
+
+## The Website
+
+- The front end was built using a React JS site as a framework for embedding Tableau Public Dashboards. 
+
+### Created by Jarod Morris
